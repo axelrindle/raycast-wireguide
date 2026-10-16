@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Dev",
+            "command": "bun run dev",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": "none",
+            "options": {
+                "statusbar": {
+                    "icon": {
+                        "id": "play"
+                    }
+                }
+            }
+        },
+    ],
+}
+ 

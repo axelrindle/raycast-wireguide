@@ -4,7 +4,7 @@
         {
             "type": "shell",
             "label": "Dev",
-            "command": "bun run dev",
+            "command": "npm run dev",
             "problemMatcher": [],
             "presentation": {
                 "reveal": "always"
@@ -20,4 +20,3 @@
         },
     ],
 }
- 

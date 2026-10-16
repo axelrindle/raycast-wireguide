@@ -1,9 +1,9 @@
 import { getPreferenceValues } from "@raycast/api";
 
 type Preferences = {
-    binary: string
-}
+    binary: string;
+};
 
 export function getPreferences() {
-    return getPreferenceValues<Preferences>()
+    return getPreferenceValues<Preferences>();
 }
